@@ -1,0 +1,2 @@
+#!/bin/sh
+exec env XDG_CURRENT_DESKTOP=GNOME GSK_RENDERER=gl GTK_A11Y=none /usr/bin/nautilus "$@"
