@@ -1,0 +1,48 @@
+    window-rule {
+        geometry-corner-radius 20 // Set every window radius to 20
+        clip-to-geometry true
+	match app-id="steam" title=r#"^notificationtoasts_\d+_desktop$"#
+    	default-floating-position x=10 y=10 relative-to="bottom-right"
+	match app-id="steam" title="Friends List"
+	default-column-width {fixed 300;}
+    }
+	
+   window-rule {
+   	geometry-corner-radius 25
+	draw-border-with-background false
+	clip-to-geometry true
+    }
+
+    layer-rule {       
+        match namespace="^noctalia-overview*"
+        place-within-backdrop true
+    }
+   
+   window-rule {
+        match app-id="Alacritty"
+	
+	background-effect {
+         blur true
+         xray false 
+       }
+   }
+ 
+  window-rule {
+        match app-id="vicinae"
+        opacity 0.80
+
+	background-effect {
+		blur true
+		xray false
+	}
+   }
+
+  window-rule {
+        match app-id="org.gnome.Nautilus"
+        opacity 0.80
+
+        background-effect {
+                blur true
+                xray false
+        }
+   }

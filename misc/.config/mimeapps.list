@@ -1,0 +1,13 @@
+[Added Associations]
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=/home/mikied/.local/share/applications/libreoffice-4.desktop;
+application/x-shellscript=code.desktop;
+application/x-xz-compressed-tar=org.gnome.Nautilus.desktop;thunar.desktop;
+application/vnd.rar=xarchiver.desktop;
+
+[Default Applications]
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop
+application/x-shellscript=code.desktop;
+inode/directory=thunar.desktop
+application/msword=libreoffice-writer.desktop
+application/x-directory=thunar.desktop
+application/vnd.rar=xarchiver.desktop
