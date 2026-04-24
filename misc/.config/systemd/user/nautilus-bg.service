@@ -4,7 +4,7 @@ Description=Nautilus background instance
 [Service]
 ExecStart=/home/mikied/.local/bin/nautilus --gapplication-service
 Restart=always
-RestartSec=2
+RestartSec=0.5
 
 [Install]
 WantedBy=default.target
