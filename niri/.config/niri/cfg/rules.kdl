@@ -63,3 +63,13 @@
                 xray false
         }
    }
+
+  window-rule {
+        match app-id="com.mitchellh.ghostty"
+	opacity 0.80
+
+        background-effect {
+         blur true
+         xray false
+       }
+   }
